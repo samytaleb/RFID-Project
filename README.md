@@ -20,3 +20,9 @@ The notebook examines direct coordinate prediction, distance estimation, multi-o
 The notebook was authored with **Google Colab** and references data stored in a Google Drive directory. Those input files and paths must be configured in your own environment before running it. Core Python libraries used include NumPy, pandas, Matplotlib and scikit-learn.
 
 No claims about final localization accuracy are made in this README; consult the notebook and report for experimental results.
+
+## Dataset availability and reproducibility
+
+The **measurement data are not included** in this public repository. The notebook references a Google Colab / Google Drive directory structure, so running all cells requires adapting these paths and obtaining the relevant data through an authorized source. The report and notebook can still be read without those files.
+
+For a fully reproducible public demonstration, a future enhancement would be a small **synthetic sample dataset** (clearly labeled as synthetic), a dependency manifest and documented metrics. Do not upload identifiable raw measurements or restricted datasets.
